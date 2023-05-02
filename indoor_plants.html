@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Интернет магазин комнатных растений</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="master.css">
+  </head>
+<body>
+  <div class="container">
+
+    <nav class="navbar navbar-expand-lg"  
+	     style="background-color: rgba(125, 239, 150, 0.63); 
+	 		        border-radius: 4px;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img class="logo"
+           src="img/logo.svg" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="indoor_plants.html">Комнатные растения</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Грунты и удобрения</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Горшки для цветов</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Акции и скидки</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Доставка и оплата</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="feedback.html">Обратная связь</a>
+              </li>
+         
+            </ul>
+            <form class="d-flex" role="search">
+               <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+                <button class="btn btn-outline-success" type="submit">Поиск</button>
+            </form>
+      
+          </div>
+        </div>
+
+        <a  class="btn btn-outline-success btn-navbar-shopping" href="order.html"><img class="shopping"
+          src="img/icon/action/shopping.png" alt="Корзина"></a>
+    
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+    
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          
+          <img src="img/carusel_1.png" class="d-block w-100" alt="Первый экран">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Интернет-магазин комнатных растений</h5>
+            <p>вседа свежие растения и цветы из лучших питомников</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/carusel_2.jpg" class="d-block w-100" alt="Второй экран">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Интернет-магазин комнатных растений</h5>
+            <p>Огромный ассортимент (более 4000 наименований)</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/carusel_3.jpg" class="d-block w-100" alt="Третий экран">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Интернет-магазин комнатных растений</h5>
+            <p>комнатные растения и цветы, грунты и удобрения, кашпо лечуза (lechuza), другие горшки для цветов и кашпо, срезку и букеты</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Предыдущий</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Следующий</span>
+      </button>
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+     </div> 
+  
+  </div>
+  
+<div class="container"> 
+
+        <div class="card-group-title">
+          <h5 class="h5 ">Комнатные растения</h5>
+        </div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4 card-group">
+  <div class="col">
+   <div class="card first">
+    <img src="img/cyclamen.png" class="card-img-top first-img" alt="Цикламен">
+    <div class="card-body">
+      <h5 class="card-title">Цикламен</h5>
+      <p class="card-text"><a href="#">Растение цикламен (Cyclamen) является частью семейства Первоцветные. Этот...</a></p>
+    </div>
+    <div class="buy">
+      <button type="button" class="btn btn-outline-success">Купить</button>
+      <div class="price">от 900 руб</div>
+    </div>
+  </div>
+</div>
+  
+  <div class="col">
+     <div class="card">
+    <img src="img/kalanchoe.png" class="card-img-top" alt="Каланхоэ">
+    <div class="card-body">
+      <h5 class="card-title">Каланхоэ</h5>
+      <p class="card-text"><a href="#">Растение каланхоэ (Kalanchoe) является представителем семейства Толстянковые. Этот...</a></p>
+     
+    </div>
+    <div class="buy">
+      <button type="button" class="btn btn-outline-success">Купить</button>
+      <div class="price">от 1200 руб</div>
+    </div>
+  </div>
+  </div>
+
+  <div class="col">
+     <div class="card last">
+    <img src="img/Selenecerius.png" class="card-img-top" alt="Селенецериус ">
+    <div class="card-body">
+      <h5 class="card-title">Селенецериус - царица ночи</h5>
+      <p class="card-text"><a href="#">Необычное растение селеницереус (Selenicereus) выделяют его душистые цветки,...</a></p>
+    </div>
+    <div class="buy">
+      <button type="button" class="btn btn-outline-success">Купить</button>
+      <div class="price">от 1900 руб</div>
+    </div>
+  </div>
+  </div>
+ 
+  <div class="col">
+   <div class="card first">
+    <img src="img/Gioforba.png" class="card-img-top first-img" alt="Гиофорба">
+    <div class="card-body">
+      <h5 class="card-title">Гиофорба — бутылочная пальма</h5>
+      <p class="card-text"><a href="#">Такое вечнозеленое растение, являющееся многолетником, как гиофорба (Hyophorbe)...</a></p>
+    </div>
+    <div class="buy">
+      <button type="button" class="btn btn-outline-success">Купить</button>
+      <div class="price">от 2000 руб</div>
+    </div>
+  </div>
+</div>
+  
+  <div class="col">
+     <div class="card">
+    <img src="img/violets.png" class="card-img-top" alt="Фиалки">
+    <div class="card-body">
+      <h5 class="card-title">Фиалки</h5>
+      <p class="card-text"><a href="#">Растение комнатная фиалка (Saintpaulia), которое еще именуют узамбарской фиалкой, является представителем семейства Геснериевые. Это...</a></p>
+     
+    </div>
+    <div class="buy">
+      <button type="button" class="btn btn-outline-success">Купить</button>
+      <div class="price">от 500 руб</div>
+    </div>
+  </div>
+  </div>
+
+  <div class="col">
+     <div class="card last">
+    <img src="img/Primrose.png" class="card-img-top" alt="Примула">
+    <div class="card-body">
+      <h5 class="card-title">Примула комнатная</h5>
+      <p class="card-text"><a href="#">Травянистое растение примула является частью семейства Первоцветные (Primulaceae)....</a></p>
+    </div>
+    <div class="buy">
+      <button type="button" class="btn btn-outline-success">Купить</button>
+      <div class="price">от 650 руб</div>
+    </div>
+  </div>
+  </div>
+
+    <div class="col">
+   <div class="card first">
+    <img src="img/Camellia.png" class="card-img-top first-img" alt="Камелия">
+    <div class="card-body">
+      <h5 class="card-title">Камелия</h5>
+      <p class="card-text"><a href="#">Род камелия (Camellia) имеет прямое отношение к семейству чайные. Этот род объединяет...</a></p>
+    </div>
+    <div class="buy">
+      <button type="button" class="btn btn-outline-success">Купить</button>
+      <div class="price">от 1050 руб</div>
+    </div>
+  </div>
+</div>
+  
+  <div class="col">
+     <div class="card">
+    <img src="img/Nephrolepis.png" class="card-img-top" alt="Нефролепсис">
+    <div class="card-body">
+      <h5 class="card-title">Нефролепсис</h5>
+      <p class="card-text"><a href="#">Растение нефролепсис (Nephrolepis) является видом рода папоротников семейства...</a></p>
+     
+    </div>
+    <div class="buy">
+      <button type="button" class="btn btn-outline-success">Купить</button>
+      <div class="price">от 900 руб</div>
+    </div>
+  </div>
+  </div>
+
+  <div class="col">
+     <div class="card last">
+    <img src="img/Spathiphyllum.png" class="card-img-top" alt="спатифиллум">
+    <div class="card-body">
+      <h5 class="card-title">Спатифиллум</h5>
+      <p class="card-text"><a href="#">Довольно эффектное растение спатифиллум (Spathiphyllum) является представителем...</a></p>
+    </div>
+    <div class="buy">
+      <button type="button" class="btn btn-outline-success">Купить</button>
+      <div class="price">от 1300 руб</div>
+    </div>
+  </div>
+  </div>
+
+</div>
+</div>
+ 
+  
+<div class="container footer">
+ <div class="contact-nav">
+  <div class="contact">
+    <address>
+      +7 (904) 181-07-67 <br>
+      r73pls@mail.ru
+    </address>
+    <div class="info">
+      <a href="#">Политика конфиденциальности и оферта</a>
+       <a href="#">Пользовательское соглашение</a>
+    </div>
+  </div> 
+  
+<nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="indoor_plants.html">Комнатные растения</a>
+                
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Грунты и удобрения</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Горшки для цветов</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Акции и скидки</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Доставка и оплата</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="feedback.html">Обратная связь</a>
+              </li>
+         
+            </ul>
+                  
+          </div>
+        </div>
+     </nav>
+</div>
+    <div class="social">
+      <div class="icon">
+      <a href="#"><img src="img/icon/telegram.svg"></a>
+      </div>
+    <div class="icon">
+      <a href="#"><img src="img/icon/Viber.svg"></a>
+    </div>
+    <div class="icon">
+     <a href="#"><img src="img/icon/VK.svg"></a> 
+    </div>
+    <div class="icon last">
+      <a href="#"><img src="img/icon/WhatsApp.svg"></a>
+    </div>
+    </div>
+  
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+

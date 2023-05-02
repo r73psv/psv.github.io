@@ -1,0 +1,433 @@
+body
+{
+	font-family: 'Roboto';
+}
+.container
+{
+
+	margin-bottom: 1rem;
+
+}
+
+
+.navbar-brand
+{
+	width: 3.625rem;
+	height: 6.25rem;
+	padding: 0;
+}
+
+
+.logo
+{
+	width: 3.625rem;
+	height: 5.5rem;
+	margin-top: 0.3rem;
+}
+
+li.nav-item
+{
+min-width: 88px;
+min-height: 42px;
+
+}
+
+a.nav-link
+{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 131%; 
+color: #62696D;
+}
+
+a.nav-link.active
+{
+font-size: 20px;
+line-height: 80%;
+color: #373A3C;
+}
+
+.navbar form
+{
+	width: 18.875rem;
+	height: 2.625rem;
+	margin-left: 4px;
+	margin-right: 0;
+
+}
+
+.btn
+{
+	color: #0275D8;
+	background: #BAF9BA;
+}
+
+.container-fluid
+{
+margin-right: 34px;
+padding: 0;
+}
+
+/*.navbar-shopping
+{
+	margin-left: 0;
+	margin-right: 34px;
+}
+*/
+.btn-navbar-shopping
+{
+
+	padding: 0px;
+	margin-left: 0;
+	margin-right: 34px;
+}
+
+.carousel-caption
+{
+width: 457px;
+height: 91px;
+top: 56px;
+left: 420px;
+color: #373A3C;
+}
+
+
+.carousel-indicators [data-bs-target] 
+{
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+
+}
+
+.carousel-item img
+{
+	height: 594px;
+}
+
+.promo-title
+{
+	width: 721px;
+	height: 42px;
+	margin-bottom: 46px;
+	margin-left: 288px;
+	margin-top: 27px;
+}
+
+.card-img-top
+{
+	width: 632px;
+	height: 477px;
+
+}
+
+.card-body
+{
+	width: 250px;
+	height: 42px;
+	margin-left: 192px;
+	margin-bottom: 42px;
+}
+
+.card-link
+{
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+}
+
+.card-group-title h5
+{
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 81%;
+text-align: center;
+color: #373A3C;
+}
+
+.card-group  
+{
+	width: 1296px;
+	margin: 0px;
+	padding: 0px;
+
+
+}
+
+.card-group .card 
+{
+	width: 416px;
+	height: 612px;
+	margin-right: 4px;
+	padding: 0px;
+	
+
+}
+
+
+.card-group .card .card-img-top
+{
+	
+	width: 416px;
+	height: 319px;
+
+}
+
+.card-group .card-img-top .first-img
+{
+	margin-left: 0px;
+
+
+}
+
+.card-group .card-body
+{
+	width: 371px;
+	height: 177px;
+	margin-left: 22px;
+	margin-top: 55px;
+	padding: 0px;
+
+}
+
+.card-group .card-title
+{
+	text-align: center;
+
+}
+
+.card-group .card-text a
+{
+	color: #000000;
+	text-decoration: none;
+
+
+}
+
+.card-group .buy
+{
+	
+	display: flex;
+	justify-content: space-between;
+	color: #0275D8;
+	margin-top: 18px;
+	margin-bottom: 15px;
+	margin-left: 56px;
+	margin-right: 15px;
+}
+
+
+.card-group .price
+{
+	
+	padding-top: 14px;
+}
+
+
+.promo-title h5
+{
+	text-align: center;
+}
+
+.footer
+{
+	display: flex;
+	background-color: rgba(125, 239, 150, 0.63);
+	min-height: 228px;
+
+}
+
+.contact
+{
+	display: flex;
+	width: 1055px;
+	height: 55px;
+	margin-left: 71px;
+	margin-top: 30px;
+}
+
+.footer nav
+{
+	width: 773px;
+	height: 42px;
+	margin-left: 289px;
+	margin-bottom: 76px;
+
+}
+
+.footer .info
+{
+	
+	width: 749px;
+	height: 32px;
+	margin-left: 109px;
+}
+
+.footer .adress
+{
+	width: 196px;
+	height: 55px;
+}
+
+.contact-nav
+{
+	width: 1140px;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.social
+{
+	width: 49px;
+	height: 183px;
+	margin-left: 110px;
+	margin-top: 22px;
+
+}
+
+.info a
+{
+	margin-right: 54px;
+	text-decoration: none;
+	color: black;
+
+}
+
+.social .icon
+{
+	width: 30px;
+	height: 30px;
+	margin-bottom: 18px;
+
+}
+
+.social .img
+{
+	width: 30px;
+	height: 30px;
+	
+}
+
+.social .last
+{
+	margin-bottom: 0px;
+}
+
+.container-order
+{
+	display: flex;
+}
+.container-left
+{
+	width: 650px;
+	margin-right: 4px;
+}
+
+.buyer 
+{
+	width: 640px;
+}
+
+.delivery 
+{
+	width: 640px;
+}
+
+.pay 
+{
+	width: 640px;
+}
+
+.line
+{
+	background-color: black;
+	width: 2px;
+
+}
+
+.container-right
+{
+	min-width: 588px;
+	margin-left: 4px;
+	margin-right: 82px;
+
+}
+
+table 
+{
+	width: 588px;
+	margin-left: 34px;
+	margin-top: 144px;
+
+}
+
+tfoot
+{
+	background-color: #85F2AE;
+}
+
+.order_btn
+{
+	width: 198px;
+	height: 52px;
+	margin-left: 220px;
+	margin-top: 28px;
+	
+}
+
+
+
+.container-left h3
+{
+	text-align: center;
+}
+
+.container-feedback
+{
+	
+	margin-top: 98px;
+	margin-bottom: 99px;
+
+}
+
+.feedback
+{
+	width: 850px;
+	margin-left: 160px
+
+}
+.feedback-form-inner
+{
+	margin-top: 0px;
+	margin-bottom: 22px;
+	padding-top: 38px;
+	padding-bottom: 38px;
+
+}
+
+.feedback-form-inner .mb-3
+{
+	margin-bottom: 24px;
+}
+
+
+.mail, .name
+{
+	width: 478px;
+
+}
+.feadback-form-btn
+{
+	width: 210px;
+	margin-left: 640px;
+	margin-right: 0px;
+	padding: 0px;
+
+	
+
+}
